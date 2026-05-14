@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6, span {
 }
 
 h1 {
-    font-size: 16px;
+    font-size: 36px;
 }
 
 p {
@@ -380,7 +380,7 @@ nav {
     margin: 16px 0;
 }
 
-.project__description--link {
+.project__description--links {
     font-size: 20px;
     margin-right: 16px;
 }
@@ -388,7 +388,7 @@ nav {
 .project__description--title,
 .project__description--sub-title,
 .project__description--para,
-.project__description--link {
+.project__description--links {
     text-align: left;
     color: #fff;
 }
@@ -466,7 +466,7 @@ footer {
         font-size: 14px;
     }
 
-    .product__description {
+    .project__description {
         left: 30px;
         padding-right: 30px;
     }
@@ -478,29 +478,30 @@ footer {
     .nav__link:not(:last-child) {
     display: none;
     }
-}
 
-.project__description {
+    .project__description {
     padding: 0;
     left: 0;
     width: 100%
-}
+    }
 
-.project__description--para {
+    .project__description--para {
     display: none;
-}
+    }
 
-.project__description--link {
+    .project__description--links {
     display: flex;
     justify-content: center;
-}
+    }
 
-.project__description--title {
-    font-size: 32px;
+    .project__description--title {
+    text-align: center;
+    font-size: 22px;
     line-height: 1;    
-}
+    }
 
-.project__description--sub-title {
+    .project__description--sub-title {
     text-align: center;
     margin: 12px 0;
+    }
 }
